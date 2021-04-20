@@ -1,3 +1,25 @@
+# Task Description
+
+- Go through the code base
+- Build a project having at least one entity with create, read, update, delete functionalites
+- Remember to change the  localhost domain name
+- in \xampp7.4\apache\conf\extra\httpd-vhosts.conf append the following
+```
+<VirtualHost *>
+DocumentRoot "H:\xampp7.4\htdocs\book-app\public"
+ServerName book-app.local
+</VirtualHost>
+
+```
+- in C:\Windows\System32\drivers\etc\hosts append the following
+```
+127.0.0.1 book-app.local
+
+```
+
+
+- Workshop Document <a href="https://docs.google.com/document/d/1ei9u2ECx3zhKpegyURdnpMX-dWsKeWzaoHzTQSUWcHk/edit?usp=sharing" target="_blank">link</a> 
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
